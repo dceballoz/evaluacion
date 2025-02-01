@@ -23,7 +23,6 @@ const styles = StyleSheet.create({
         backgroundColor: '#4caebd',
         alignItems:'flex-end',
         
-       
     },
 
     boxBlue: {
