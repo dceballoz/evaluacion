@@ -4,13 +4,15 @@ import { StyleSheet, View } from 'react-native';
 const Ejercicio4 = () => {
     return (
         <View style={styles.container}>
-            <View style={styles.boxBlue}>
+            <View style={{ flexDirection:'row', justifyContent:'flex-end'}}><View style={styles.boxBlue}> </View></View>
+            
                 
-            </View>
-            <View style={styles.boxOrange}>
+           <View><View style={styles.boxOrange}>
                 
-                </View>
-                <View style={styles.boxCeleste}></View>
+                </View></View>
+            
+                <View style={{ flexDirection:'row', justifyContent:'center'}}><View style={styles.boxCeleste}> </View></View>
+
         </View>
         
     );
@@ -21,7 +23,7 @@ const styles = StyleSheet.create({
        
         flex: 1,
         backgroundColor: '#4caebd',
-        
+        //alignItems: 'center',
         justifyContent:'center'
         
        
@@ -44,6 +46,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#f28824',
         borderWidth: 10,
         borderColor: '#ffffff',
+        
         
     },
 
